@@ -20,6 +20,11 @@ main{
   border: 7px double maroon;
   
 }
+alert{
+  background-color: aquamarine;
+  border: 3px double green;
+  font-size: xx-large;
+}
 hr{
   margin-top: 10px;
   color: rgb(35, 0, 0);
@@ -138,15 +143,28 @@ tr:nth-child(even){background-color:rgba(70, 0, 0, 0.8);}
   }
   
 }
+@media screen and (min-width: 981){
+  main{
+    margin-top: 180px;
+    font-size: x-large;
+    
+    width: 90%;
+    position: relative;
+    top: -550px;
+    height: fit-content;
+  }
+  
+}
 @media screen and (max-width: 980px){
   main{
     margin-top: 180px;
     font-size: x-large;
-    background-image: url('../img/pergaminhoVerticalLongo.jpg');
-    width: 80%;
+    /* background-image: url('../img/pergaminhoVerticalLongo.jpg'); */
+    width: 90%;
     position: relative;
     top: -150px;
     height: fit-content;
+    padding: 10px;
   }
   table{
     width: 95%;

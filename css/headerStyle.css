@@ -4,10 +4,10 @@
   box-sizing: border-box;
   font-family: dumbledore;
 }
-a{
-  /* color: rgb(150, 34, 0); */
-  color: rgb(252, 181, 101);
+.link{
+  color:rgb(252, 181, 101);
 }
+
 body{
     
     width: 100%;

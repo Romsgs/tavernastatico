@@ -3,6 +3,7 @@ main{
   /* height: 500px; */
   display: flex;
   flex-direction: column;
+  /* flex-wrap: wrap; */
   justify-content: flex-start;
   font-family: dumbledore;
   margin-top: 100px;
@@ -19,6 +20,23 @@ main{
   box-shadow: 15px 15px 15px rgba(35, 0, 0, 0.6);
   border: 7px double maroon;
   
+}
+#abanda{
+  align-items: center;
+  justify-content: center;
+  text-shadow: 5px 5px 10px rgba(196, 168, 143, 0.8);
+}
+#membro{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.fotoTodos{
+  
+  height: 300px;
 }
 alert{
   background-color: aquamarine;
@@ -44,6 +62,7 @@ form {
   border-radius: 15px;
   
 }
+
 button {
   margin-top: 50px;
   align-self: center;
@@ -89,27 +108,53 @@ label {
   margin-bottom: 30px;
   
 }
+.fotoTodos{
+  border-radius: 60px;
+  box-shadow: 5px 5px 10px black;
+}
 table{
   border-collapse: collapse;
-  border: none;
-  border-radius: 15px;
+  /* border: none; */
+  border-radius: 25px;
   column-gap: none;
   align-self: center;
   font-size: large;
-  width: 40%;
+  width: 50%;
   margin-top: 100px;
-  background-color: antiquewhite;
-  color: #cd853fe6;
+  background-color: rgba(35, 0, 0,0.8);
+  color: rgb(252, 181, 101);
+  border-color: 2px double brown;
 }
+
 .linkdetabela{
   color: black;
 }
 th{
+  
+  padding: 10px;
   border: none;
-  background-color: rgba(35, 0, 0, 0.8);
+  background-color: rgba(94, 65, 65, 0.733);
 }
-td{padding: 10px;border: none;}
-tr:nth-child(even){background-color:rgba(70, 0, 0, 0.8);}
+ 
+#titulo{
+  color: rgb(252, 181, 101);
+}
+.item{
+  color: rgb(34, 0, 0);
+}
+td{
+  padding: 10px;
+   border: none;
+
+  
+}
+
+tr:nth-child(even){background-color:rgba(255, 218, 185,0.8);} 
+tr:last-child{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
 #icones{
   height: 200px;
   width: 30%;
@@ -141,9 +186,12 @@ tr:nth-child(even){background-color:rgba(70, 0, 0, 0.8);}
     top: -550px;
     height: fit-content;
   }
+  table{
+    width: 80%;
+  }
   
 }
-@media screen and (min-width: 981){
+@media screen and (max-width: 981){
   main{
     margin-top: 180px;
     font-size: x-large;
@@ -153,6 +201,7 @@ tr:nth-child(even){background-color:rgba(70, 0, 0, 0.8);}
     top: -550px;
     height: fit-content;
   }
+  
   
 }
 @media screen and (max-width: 980px){
@@ -170,4 +219,11 @@ tr:nth-child(even){background-color:rgba(70, 0, 0, 0.8);}
     width: 95%;
   }
   
+}
+@media screen and (max-width: 1580px){
+
+table{
+  width: 80%;
+}
+
 }

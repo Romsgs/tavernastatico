@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/headerStyle.css">
     <link rel="stylesheet" href="./css/footerStyle.css">
     <link rel="stylesheet" href="./css/bodyStyle.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <script src="./scriptPraEnviarOEmail.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
@@ -53,6 +54,17 @@
           <input type="text" id="email" name="email"placeholder="Seu E-m@il" />
           <textarea placeholder="Escreva aqui sua menssagem"name="textarea" id="msg" cols="30" rows="10"></textarea>
           <button onclick="enviar()">Enviar</button>
+
+          <form action="enviar()">
+            <input type="text" id="fromName" name="nome" placeholder="Seu Nome" />
+            <input type="text" id="email" name="email"placeholder="Seu E-m@il" />
+            <textarea placeholder="Escreva aqui sua menssagem"name="textarea" id="msg" cols="30" rows="10"></textarea>
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            <br/>
+            <input type="submit" value="Submit">
+          </form>
+
+
         </main>
         <!-- fim do CONTEUDO PRINCIPAL -->
 

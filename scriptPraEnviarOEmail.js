@@ -11,3 +11,6 @@ function enviar(params){
         alert('Menssagem enviada com sucesso!')
     })
 }
+
+// chave secreta do recaptcha 6LfPvGwdAAAAAFGFdCmCcXua_LawM_8-2_LwgD_d
+// chave do site 6LfPvGwdAAAAAAdVMMcyovxjV1W1OhWpiEAtAxiX

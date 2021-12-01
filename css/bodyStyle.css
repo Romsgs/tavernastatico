@@ -35,8 +35,10 @@ main{
   margin-top: 10px;
 }
 .fotoTodos{
-  
+  border: 4px double maroon;
   height: 300px;
+  border-radius: 100px;
+  box-shadow: 5px 5px 10px black;
 }
 alert{
   background-color: aquamarine;
@@ -108,10 +110,7 @@ label {
   margin-bottom: 30px;
   
 }
-.fotoTodos{
-  border-radius: 60px;
-  box-shadow: 5px 5px 10px black;
-}
+
 table{
   border-collapse: collapse;
   /* border: none; */

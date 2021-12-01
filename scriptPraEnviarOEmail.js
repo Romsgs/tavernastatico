@@ -9,9 +9,7 @@ function enviar(params){
     emailjs.send('service_qgmf1cp', 'template_4e44swz', tempParams).then(res =>{
         console.log('enviado', res.status)
         alert('Menssagem enviada com sucesso!')
-        from_name.value = ''
-        email.value = ''
-        message.value = ''
+        
 
 
     })

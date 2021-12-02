@@ -134,7 +134,20 @@ th{
   border: none;
   background-color: rgba(94, 65, 65, 0.733);
 }
- 
+ #cd{
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+ }
+ #fotocd{
+
+   width: 40%;
+ }
+ #descricao{
+   width: 40%;
+ }
 #titulo{
   color: rgb(252, 181, 101);
 }

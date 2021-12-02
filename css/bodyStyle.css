@@ -225,7 +225,17 @@ tr:last-child{
   table{
     width: 95%;
   }
-  
+  #membro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  .fotoTodos{
+    margin-right: 20px;
+  }
 }
 @media screen and (max-width: 1580px){
 

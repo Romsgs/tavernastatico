@@ -26,6 +26,9 @@ main{
   justify-content: center;
   text-shadow: 5px 5px 10px rgba(196, 168, 143, 0.8);
 }
+.dizeresFooter{
+  color: rgb(160, 119, 86);
+}
 #membro{
   width: 100%;
   display: flex;

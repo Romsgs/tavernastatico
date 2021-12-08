@@ -19,7 +19,6 @@ main{
   font-weight: bold;
   box-shadow: 15px 15px 15px rgba(35, 0, 0, 0.6);
   border: 7px double maroon;
-  
 }
 #abanda{
   align-items: center;
@@ -190,22 +189,13 @@ tr:last-child{
   width: 30%;
   height: 400px;
   align-self: center;
+  justify-content: space-around;
+  align-items: center;
 }
-@media screen and (max-width: 1336){
-  main{
-    margin-top: 180px;
-    font-size: x-large;
-    
-    width: 90%;
-    position: relative;
-    top: -550px;
-    height: fit-content;
-  }
-  table{
-    width: 80%;
-  }
-  
+#botaoMedia{
+  width: 100%;
 }
+
 @media screen and (max-width: 981){
   main{
     margin-top: 180px;
@@ -252,6 +242,11 @@ tr:last-child{
   .fotoTodos{
     margin-right: 20px;
   }
+  #MediaContainer{
+    width: 90%;
+    height: 400px;
+    align-self: center;
+  }
 }
 @media screen and (max-width: 1580px){
 
@@ -259,4 +254,23 @@ table{
   width: 80%;
 }
 
+}
+@media screen and (max-width: 1336){
+  main{
+    margin-top: 180px;
+    font-size: x-large;
+    
+    width: 90%;
+    position: relative;
+    top: -550px;
+    height: fit-content;
+  }
+  table{
+    width: 80%;
+  }
+  #MediaContainer{
+    width: 60%;
+    height: 400px;
+    align-self: center;
+  }
 }

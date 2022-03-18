@@ -116,7 +116,8 @@ label {
 table{
   border-collapse: collapse;
   /* border: none; */
-  border-radius: 25px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   column-gap: none;
   align-self: center;
   font-size: large;
@@ -133,8 +134,9 @@ table{
 th{
 
   padding: 10px;
-  border: none;
-  background-color: rgba(94, 65, 65, 0.733);
+  /* border: none; */
+  /* background-color: rgba(94, 65, 65, 0.733); */
+  
 }
  #cd{
    width: 100%;
@@ -166,11 +168,8 @@ td{
 }
 tr:nth-child(odd){background-color:rgba(219, 183, 152, 0.8);}
 tr:nth-child(even){background-color:rgba(255, 218, 185,0.8);} 
-tr:nth-last-child
-{
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
-}
+tr:nth-last-child(){border-radius: 25px;}
+
 
 #icones{
   height: 200px;

@@ -151,6 +151,8 @@ border-bottom: 2px solid black ;
    width: 40%;
  }
 #titulo{
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
   color: rgb(252, 181, 101);
 }
 .item{
@@ -162,9 +164,10 @@ td{
 
   
 }
-
+tr:nth-child(odd){background-color:rgba(219, 183, 152, 0.8);}
 tr:nth-child(even){background-color:rgba(255, 218, 185,0.8);} 
-tr:last-child{
+tr:nth-last-child
+{
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
 }
